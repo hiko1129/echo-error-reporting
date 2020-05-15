@@ -4,7 +4,7 @@ import (
 	"log"
 
 	"cloud.google.com/go/errorreporting"
-	"github.com/labstack/echo"
+	"github.com/labstack/echo/v4"
 )
 
 // New returns a new echo middleware which sends an error to gcp error reporting
